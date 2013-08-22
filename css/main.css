@@ -124,25 +124,86 @@ Spacing:
 */
 @font-face {
     font-family: 'blackoutmidnight';
-    src: url('css/font/blackout-midnight-webfont.eot');
-    src: url('css/font/blackout-midnight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('css/font/blackout-midnight-webfont.woff') format('woff'),
-         url('css/font/blackout-midnight-webfont.ttf') format('truetype'),
-         url('css/font/blackout-midnight-webfont.svg#blackoutmidnight') format('svg');
+    src: url('font/blackout-midnight-webfont.eot');
+    src: url('font/blackout-midnight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/blackout-midnight-webfont.woff') format('woff'),
+         url('font/blackout-midnight-webfont.ttf') format('truetype'),
+         url('font/blackout-midnight-webfont.svg#blackoutmidnight') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 
-h1 {
-    font-size: 64px;
-    font-family: 'blackoutmidnight', sans-serif;
+#page {
+    max-width: 940px;
+    margin: auto;
+}
+
+#tech {
+    margin: auto;
 }
 
 
+.tech_block {
+    width: 155px;
+    margin-right:70px ;
+    float: left;
+}
 
+h1 {
+    font-size: 64px;
+    font-family: 'blackoutmidnight', sans-serif;
+    text-align: center;
+    color: #36a288;
+}
 
+h2#subtitle {
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center
+}
 
+h2 {
+    font-size: 23px;
+    font-family: sans-serif;
+    font-variant: italic;
+    text-align: center;
+    color: #f24738;
+}
+
+#title h1,
+#title h2,
+#title h3 {
+    color: white;
+}
+
+p {
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
+#title {
+    background-color: #f7e753;
+}
+
+#navbar {
+    background-color: #36a288;
+    width: 100%;
+}
+
+#navbar_in {
+    margin:10px 0px 10px 0px;
+    padding: 10px;
+
+}
+
+#navbar_in li {
+    display: inline-block;
+    float: right;
+    padding: 0px 10px 0px 10px;
+    background-color: #36a288;
+    color: white;
+}
 
 
 
