@@ -93,7 +93,51 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*
+WDI Yearbook
 
+Width: 940px
+
+Fonts & Type Size:
+  h1: Blackout Midnight 64px
+  subtitles: Euphemia UCAS Italic 22.5px
+  text: Euphemia UCAS 19px
+
+  navbar: 20px
+  about heading: blackout 23px
+  about description: 16px
+  student names: 36px
+  biog text:14.66px
+  personal website: 14.66px italic
+  project descriptions: 18px italic, names all caps no italic
+  instructor names: blackout 20px
+  instructor biogs: undecided based on how much info they supply
+
+Colors:
+  yellow #f7e753
+  green #36a288
+  red #f24738
+
+Spacing:
+  Headshots are separated 50px in between
+  Sections are separated by 125px
+*/
+@font-face {
+    font-family: 'blackoutmidnight';
+    src: url('css/font/blackout-midnight-webfont.eot');
+    src: url('css/font/blackout-midnight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('css/font/blackout-midnight-webfont.woff') format('woff'),
+         url('css/font/blackout-midnight-webfont.ttf') format('truetype'),
+         url('css/font/blackout-midnight-webfont.svg#blackoutmidnight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+    font-size: 64px;
+    font-family: 'blackoutmidnight', sans-serif;
+}
 
 
 
