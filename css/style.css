@@ -27,6 +27,7 @@ Spacing:
   Headshots are separated 50px in between
   Sections are separated by 125px
 */
+
 @font-face {
     font-family: 'blackoutmidnight';
     src: url('font/blackout-midnight-webfont.eot');
@@ -113,8 +114,6 @@ p:last-child {
   margin-bottom: 0;
 }
 
-
-
 h1 {
     font-size: 4em;
     font-family: 'blackoutmidnight', sans-serif;
@@ -125,19 +124,26 @@ h1 {
 }
 
 h2#subtitle {
-    font-size: 2em;
     text-align: center;
 }
 
 h2 {
-    font-size: 2.2em;
+    font-size: 2em;
     font-family: 'euphemia_ucasitalic',  sans-serif;
     text-align: center;
     color: #f24738;
     margin-bottom: 0.65em;
 }
+
 h3 {
   font-family: 'blackoutmidnight', sans-serif;
+  font-size: 1.4em;
+}
+
+h4{
+  font-family: 'euphemia_ucasregular', sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
 }
 
 #header_title h1 {
@@ -220,6 +226,10 @@ p {
 }
 
 
-
-
+/*************
+* PROJECTS section *
+*************/
+#project_description{
+  font-style: italic;
+}
 
