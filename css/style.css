@@ -116,22 +116,28 @@ p:last-child {
 
 
 h1 {
-    /*font-size: 64px; */
+    font-size: 4em;
     font-family: 'blackoutmidnight', sans-serif;
     text-align: center;
     color: #36a288;
+    margin-bottom: 0;
+    line-height: 1.2;
 }
 
 h2#subtitle {
-    /*font-size: 40px;*/
-    text-align: center
+    font-size: 2em;
+    text-align: center;
 }
 
 h2 {
-    /*font-size: 23px;*/
+    font-size: 2.2em;
     font-family: 'euphemia_ucasitalic',  sans-serif;
     text-align: center;
     color: #f24738;
+    margin-bottom: 0.65em;
+}
+h3 {
+  font-family: 'blackoutmidnight', sans-serif;
 }
 
 #header_title h1 {
@@ -144,7 +150,7 @@ h2 {
 }
 
 p {
-    /*font-size: 19px;*/
+    font-size: 1em;
 }
 
 /*************
