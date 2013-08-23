@@ -93,14 +93,194 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*
+WDI Yearbook
+
+Width: 940px
+
+Fonts & Type Size:
+  h1: Blackout Midnight 64px
+  subtitles: Euphemia UCAS Italic 22.5px
+  text: Euphemia UCAS 19px
+
+  navbar: 20px
+  about heading: blackout 23px
+  about description: 16px
+  student names: 36px
+  biog text:14.66px
+  personal website: 14.66px italic
+  project descriptions: 18px italic, names all caps no italic
+  instructor names: blackout 20px
+  instructor biogs: undecided based on how much info they supply
+
+Colors:
+  yellow #f7e753
+  green #36a288
+  red #f24738
+
+Spacing:
+  Headshots are separated 50px in between
+  Sections are separated by 125px
+*/
+@font-face {
+    font-family: 'blackoutmidnight';
+    src: url('font/blackout-midnight-webfont.eot');
+    src: url('font/blackout-midnight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/blackout-midnight-webfont.woff') format('woff'),
+         url('font/blackout-midnight-webfont.ttf') format('truetype'),
+         url('font/blackout-midnight-webfont.svg#blackoutmidnight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'euphemia_ucasregular';
+    src: url('font/euphemia_ucas_regular_2.6.6-webfont.eot');
+    src: url('font/euphemia_ucas_regular_2.6.6-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/euphemia_ucas_regular_2.6.6-webfont.woff') format('woff'),
+         url('font/euphemia_ucas_regular_2.6.6-webfont.ttf') format('truetype'),
+         url('font/euphemia_ucas_regular_2.6.6-webfont.svg#euphemia_ucasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'euphemia_ucasbold';
+    src: url('font/euphemia_ucas_bold_2.6.6-webfont.eot');
+    src: url('font/euphemia_ucas_bold_2.6.6-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/euphemia_ucas_bold_2.6.6-webfont.woff') format('woff'),
+         url('font/euphemia_ucas_bold_2.6.6-webfont.ttf') format('truetype'),
+         url('font/euphemia_ucas_bold_2.6.6-webfont.svg#euphemia_ucasbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'euphemia_ucasitalic';
+    src: url('font/euphemia_ucas_italic_2.6.6-webfont.eot');
+    src: url('font/euphemia_ucas_italic_2.6.6-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/euphemia_ucas_italic_2.6.6-webfont.woff') format('woff'),
+         url('font/euphemia_ucas_italic_2.6.6-webfont.ttf') format('truetype'),
+         url('font/euphemia_ucas_italic_2.6.6-webfont.svg#euphemia_ucasitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: 'euphemia_ucasregular', sans-serif;
+}
+
+#page {
+    max-width: 58.750em;
+    margin: auto;
+}
+
+#students {
+}
+
+#blurb {
+  max-width:41.25em;
+  margin:auto;
+}
+
+#content {
+  max-width: 51.25em;
+  margin:auto;
+}
+
+.tech_set {
+  float:left;
+}
+.tech_block {
+    width: 10em;
+    margin-right: 3.75em;
+    float: left;
+}
+
+.tech_set:last-child .tech_block:last-child {
+    margin-right: 0em;
+}
+
+.tech_block img {
+  margin:auto;
+  padding-bottom: 1.56em;
+}
 
 
 
+/*************
+* TYPOGRAPHY *
+*************/
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+p:last-child {
+  margin-bottom: 0;
+}
 
 
 
+h1 {
+    /*font-size: 64px; */
+    font-family: 'blackoutmidnight', sans-serif;
+    text-align: center;
+    color: #36a288;
+}
 
+h2#subtitle {
+    /*font-size: 40px;*/
+    text-align: center
+}
 
+h2 {
+    /*font-size: 23px;*/
+    font-family: 'euphemia_ucasitalic',  sans-serif;
+    text-align: center;
+    color: #f24738;
+}
+
+#header_title h1 {
+    color: white;
+}
+#header_title h2,
+#header_title h3 {
+    color: white;
+    font-family: 'euphemia_ucasregular', sans-serif;
+}
+
+p {
+    /*font-size: 19px;*/
+}
+
+#header_title {
+    background-color: #f7e753;
+}
+
+#navbar {
+    background-color: #36a288;
+    width: 100%;
+}
+
+#navbar_in {
+    margin:0.625em 0px 0.625em  0px;
+    padding: 0.625em;
+
+}
+
+#navbar_in li {
+    display: inline-block;
+    float: right;
+    padding: 0px 0.625em 0px 0.625em;
+    background-color: #36a288;
+    color: white;
+}
+
+.title {
+  margin:auto;
+}
 
 
 
