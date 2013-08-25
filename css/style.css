@@ -89,6 +89,7 @@ body {
 }
 
 #students {
+  max-width: 51.25em;
 }
 
 #blurb {
@@ -199,21 +200,63 @@ p {
     float: left;
 }
 
-.tech_img {
-  margin: auto;
-}
-
-.tech_set:last-child .tech_block:last-child {
-    margin-right: 0em;
-}
-
 .tech_block img {
   margin:auto;
   display: block;
   padding-bottom: 1.56em;
 }
 
+/* zero right margin for right most tech_block*/
+.tech_set:last-child .tech_block:last-child {
+    margin-right: 0em;
+}
+
+/* zero right margin for 2nd tech_block
+because the screen is narrow*/
+
+@media all and (max-width: 450px) {
+.tech_block:last-child {
+    margin-right: 0em;
+}
+}
+
+/*************
+* Students sections *
+*************/
 
 
+.row div {
+  float: left;
+}
+.row img {
+}
+
+h1.right {
+  text-align: right;
+}
+h1.left {
+  text-align: left;
+}
+.profile-row {
+  width:100%;
+}
+.profile {
+  position: relative;
+  display: none;
+  float: left;
+  background: white;
+  padding-bottom: 20px;
+  border-width:5px;
+  border-color:  #f7e753;
+  margin: 10px;
+  width:50em;
+
+}
+
+.portrait {
+  background-color: #f7e753;
+  padding: 20px;
+  margin: 10px;
+}
 
 
