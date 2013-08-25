@@ -115,7 +115,7 @@ p:last-child {
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 3.8em;
     font-family: 'blackoutmidnight', sans-serif;
     text-align: center;
     color: #36a288;
@@ -128,7 +128,7 @@ h2#subtitle {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: 'euphemia_ucasitalic',  sans-serif;
     text-align: center;
     color: #f24738;
@@ -137,7 +137,7 @@ h2 {
 
 h3 {
   font-family: 'blackoutmidnight', sans-serif;
-  font-size: 1.4em;
+  font-size: 1.25em;
 }
 
 h4{
@@ -156,7 +156,7 @@ h4{
 }
 
 p {
-    font-size: 1em;
+    font-size: 0.875em;
 }
 
 /*************
@@ -174,22 +174,23 @@ p {
 }
 
 #navbar {
-    background-color: #36a288;
-    width: 100%;
+  background-color: #36a288;
+  width: 100%;
 }
 
 #navbar_in {
-    margin:0.625em 0px 0.625em  0px;
-    padding: 0.625em;
-
+  margin:0.625em 0px 0.625em  0px;
+  padding: 0.625em;
 }
 
 #navbar_in li {
-    display: inline-block;
-    float: right;
-    padding: 0px 0.55em 0px 0.4em;
-    background-color: #36a288;
-    color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  display: inline-block;
+  float: right;
+  padding: 0px 0.55em 0px 0.4em;
+  background-color: #36a288;
+  color: white;
 }
 
 .title {
