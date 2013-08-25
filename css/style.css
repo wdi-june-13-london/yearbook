@@ -27,6 +27,7 @@ Spacing:
   Headshots are separated 50px in between
   Sections are separated by 125px
 */
+
 @font-face {
     font-family: 'blackoutmidnight';
     src: url('font/blackout-midnight-webfont.eot');
@@ -114,25 +115,36 @@ p:last-child {
   margin-bottom: 0;
 }
 
-
-
 h1 {
-    /*font-size: 64px; */
+    font-size: 3.8em;
     font-family: 'blackoutmidnight', sans-serif;
     text-align: center;
     color: #36a288;
+    margin-bottom: 0;
+    line-height: 1.2;
 }
 
 h2#subtitle {
-    /*font-size: 40px;*/
-    text-align: center
+    text-align: center;
 }
 
 h2 {
-    /*font-size: 23px;*/
+    font-size: 1.5em;
     font-family: 'euphemia_ucasitalic',  sans-serif;
     text-align: center;
     color: #f24738;
+    margin-bottom: 0.65em;
+}
+
+h3 {
+  font-family: 'blackoutmidnight', sans-serif;
+  font-size: 1.25em;
+}
+
+h4{
+  font-family: 'euphemia_ucasregular', sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
 }
 
 #header_title h1 {
@@ -145,7 +157,7 @@ h2 {
 }
 
 p {
-    /*font-size: 19px;*/
+    font-size: 0.875em;
 }
 
 /*************
@@ -163,22 +175,23 @@ p {
 }
 
 #navbar {
-    background-color: #36a288;
-    width: 100%;
+  background-color: #36a288;
+  width: 100%;
 }
 
 #navbar_in {
-    margin:0.625em 0px 0.625em  0px;
-    padding: 0.625em;
-
+  margin:0.625em 0px 0.625em  0px;
+  padding: 0.625em;
 }
 
 #navbar_in li {
-    display: inline-block;
-    float: right;
-    padding: 0px 0.55em 0px 0.4em;
-    background-color: #36a288;
-    color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  display: inline-block;
+  float: right;
+  padding: 0px 0.55em 0px 0.4em;
+  background-color: #36a288;
+  color: white;
 }
 
 .title {
@@ -259,4 +272,10 @@ h1.left {
   margin: 10px;
 }
 
+/*************
+* PROJECTS section *
+*************/
+#project_description{
+  font-style: italic;
+}
 
