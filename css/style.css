@@ -156,6 +156,10 @@ h4{
     font-family: 'euphemia_ucasregular', sans-serif;
 }
 
+#header_title h2{
+  margin-bottom: 0;
+}
+
 p {
     font-size: 0.875em;
 }
@@ -163,8 +167,6 @@ p {
 /*************
 * HEADER and NAVBAR  *
 *************/
-
-
 
 #header_title {
     background-color: #f7e753;
@@ -196,6 +198,7 @@ p {
 
 .title {
   margin:auto;
+  padding-top: 8em;
 }
 
 
@@ -203,9 +206,9 @@ p {
 * TECH sections *
 *************/
 
-
 .tech_set {
   float:left;
+  padding-top: 3.2em;
 }
 .tech_block {
     width: 10em;
@@ -217,6 +220,10 @@ p {
   margin:auto;
   display: block;
   padding-bottom: 1.56em;
+}
+
+.tech_block h3{
+  margin: 0 auto;
 }
 
 /* zero right margin for right most tech_block*/
@@ -241,6 +248,7 @@ because the screen is narrow*/
 .row div {
   float: left;
 }
+
 .row img {
 }
 
@@ -251,12 +259,15 @@ because the screen is narrow*/
 h1.right {
   text-align: right;
 }
+
 h1.left {
   text-align: left;
 }
+
 .profile-row {
   width:100%;
 }
+
 .profile {
   position: relative;
   display: none;
@@ -267,7 +278,6 @@ h1.left {
   border-color:  #f7e753;
   margin: 10px;
   width:50em;
-
 }
 
 .portrait {
@@ -276,9 +286,25 @@ h1.left {
   margin: 10px;
 }
 
+a.personal_website {
+  text-decoration: none;
+  color: #f24738;
+}
+a.personal_website:hover{
+  text-decoration: underline;
+  color: #f24738;
+}
+
 /*************
 * PROJECTS section *
 *************/
+
+#featured_projects_title{
+  float: left;
+  width: 100%;
+  padding-top: 8em;
+}
+
 
 #project_description{
   font-style: italic;
