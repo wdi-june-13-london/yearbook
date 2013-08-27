@@ -280,9 +280,6 @@ h1.left {
 * PROJECTS section *
 *************/
 
-.student_projects {
-}
-
 #project_description{
   font-style: italic;
 }
@@ -301,11 +298,8 @@ h1.left {
   float: left;
 }
 
-.project_image {
-  max-width: 16em;
-}
-
 img.project_image {
+  max-width: 16em;
   margin-top: 3em;
   margin-bottom: 1em;
   background-color: white;
