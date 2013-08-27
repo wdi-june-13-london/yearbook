@@ -80,6 +80,17 @@ Spacing:
 * Section specific formatting *
 *************/
 
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+
+
 body {
     font-family: 'euphemia_ucasregular', sans-serif;
 }
@@ -182,7 +193,6 @@ p {
 }
 
 #navbar_in {
-  margin:0.625em 0px 0.625em  0px;
   padding: 0.625em;
 }
 
