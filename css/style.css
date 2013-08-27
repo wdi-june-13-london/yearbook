@@ -194,7 +194,7 @@ p {
 
 .title {
   margin:auto;
-  padding-top: 7em;
+  padding-top: 8em;
 }
 
 
@@ -289,6 +289,12 @@ a.personal_website:hover{
 /*************
 * PROJECTS section *
 *************/
+#featured_projects_title{
+  float: left;
+  width: 100%;
+  padding-top: 8em;
+}
+
 #project_description{
   font-style: italic;
 }
