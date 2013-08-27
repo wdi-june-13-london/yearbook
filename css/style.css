@@ -239,6 +239,7 @@ because the screen is narrow*/
 .row div {
   float: left;
 }
+
 .row img {
 }
 
@@ -249,12 +250,15 @@ because the screen is narrow*/
 h1.right {
   text-align: right;
 }
+
 h1.left {
   text-align: left;
 }
+
 .profile-row {
   width:100%;
 }
+
 .profile {
   position: relative;
   display: none;
@@ -265,13 +269,21 @@ h1.left {
   border-color:  #f7e753;
   margin: 10px;
   width:50em;
-
 }
 
 .portrait {
   background-color: #f7e753;
   padding: 20px;
   margin: 10px;
+}
+
+a.personal_website {
+  text-decoration: none;
+  color: #f24738;
+}
+a.personal_website:hover{
+  text-decoration: underline;
+  color: #f24738;
 }
 
 /*************
