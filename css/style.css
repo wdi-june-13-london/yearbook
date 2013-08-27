@@ -279,7 +279,36 @@ h1.left {
 /*************
 * PROJECTS section *
 *************/
+
+.student_projects {
+}
+
 #project_description{
   font-style: italic;
 }
 
+.project_block {
+  display: inline-block;
+  width: 16em;
+  padding-right: 1.3em;
+  float: left;
+}
+
+.project_block_last {
+  display: inline-block;
+  width: 16em;
+  margin-right: 0;
+  float: left;
+}
+
+.project_image {
+  max-width: 16em;
+}
+
+img.project_image {
+  margin-top: 3em;
+  margin-bottom: 1em;
+  background-color: white;
+  text-align: center;
+  box-shadow: 2px 2px 5px 1px #BABAB6;
+}
