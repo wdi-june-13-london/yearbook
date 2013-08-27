@@ -208,6 +208,7 @@ p {
 
 .tech_set {
   float:left;
+  padding-top: 3.2em;
 }
 .tech_block {
     width: 10em;
@@ -219,6 +220,10 @@ p {
   margin:auto;
   display: block;
   padding-bottom: 1.56em;
+}
+
+.tech_block h3{
+  margin: 0 auto;
 }
 
 /* zero right margin for right most tech_block*/
