@@ -164,8 +164,6 @@ p {
 * HEADER and NAVBAR  *
 *************/
 
-
-
 #header_title {
     background-color: #f7e753;
 }
@@ -196,13 +194,13 @@ p {
 
 .title {
   margin:auto;
+  padding-top: 7em;
 }
 
 
 /*************
 * TECH sections *
 *************/
-
 
 .tech_set {
   float:left;
