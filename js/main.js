@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var stickyNavTop = $('#blurb').offset().top;
+  var stickyNavTop = $('#tech').offset().top;
 
   var stickyNav = function(){
   var scrollTop = $(window).scrollTop();
