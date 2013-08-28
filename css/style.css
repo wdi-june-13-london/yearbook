@@ -242,15 +242,14 @@ p {
 because the screen is narrow*/
 
 @media all and (max-width: 450px) {
-.tech_block:last-child {
-    margin-right: 0em;
-}
+  .tech_block:last-child {
+      margin-right: 0em;
+  }
 }
 
 /*************
 * Students sections *
 *************/
-
 
 .row div {
   float: left;
@@ -338,4 +337,42 @@ img.project_image {
   background-color: white;
   text-align: center;
   box-shadow: 2px 2px 5px 1px #BABAB6;
+}
+
+/*************
+* FOOTER section *
+*************/
+
+.footer {
+  background-color: #f7e753;
+  padding: 1em 0;
+}
+
+.footer_elements {
+  width: 51.25em;
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ga_logo {
+  display: inline-block;
+  margin-right: 2em;
+}
+
+img.logo_image {
+  max-height: 5em;
+}
+
+.credits {
+  display: inline-block;
+  vertical-align: middle;
+}
+.credits h4 {
+  margin-bottom: 0;
+  font-size: .875em;
+}
+.credits p {
+  font-size: .75em;
+  margin-top: .4em;
 }
