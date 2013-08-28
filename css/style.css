@@ -348,36 +348,36 @@ img.project_image {
 
 .footer {
   background-color: #f7e753;
-  height: 6em;
+  padding: 1em 0;
 }
 
 .footer_elements {
-  display: inline-block;
+  width: 51.25em;
+  display: table;
+  margin: 0 auto;
+  text-align: center;
 }
 
+
+
 .ga_logo {
-  margin-top: 0.5em;
-  margin-left: 0.5em;
-  float: left;
+  display: inline-block;
+  margin-right: 2em;
 }
 
 img.logo_image {
   max-height: 5em;
-  margin-left: 10em;
 }
 
 .credits {
-  margin-top: 2em;
-  float: left;
-  margin-left: 3em;
+  display: inline-block;
   vertical-align: middle;
-
 }
 .credits h4 {
   margin-bottom: 0;
   font-size: .875em;
 }
 .credits p {
-  margin-top: .4em;
   font-size: .75em;
+  margin-top: .4em;
 }
