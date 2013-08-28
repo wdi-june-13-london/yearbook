@@ -346,32 +346,38 @@ img.project_image {
 * FOOTER section *
 *************/
 
-.footer{
+.footer {
   background-color: #f7e753;
   height: 6em;
 }
 
-.footer_elements{
-
+.footer_elements {
+  display: inline-block;
 }
 
-.ga_logo{
+.ga_logo {
+  margin-top: 0.5em;
+  margin-left: 0.5em;
   float: left;
 }
 
-.credits{
+img.logo_image {
+  max-height: 5em;
+  margin-left: 10em;
+}
+
+.credits {
+  margin-top: 2em;
   float: left;
-  width: 75%;
-  height: 5em;
   margin-left: 3em;
   vertical-align: middle;
 
 }
-.credits h4{
+.credits h4 {
   margin-bottom: 0;
   font-size: .875em;
 }
-.credits p{
+.credits p {
   margin-top: .4em;
   font-size: .75em;
 }
