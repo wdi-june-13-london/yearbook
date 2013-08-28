@@ -348,7 +348,11 @@ img.project_image {
 
 .footer{
   background-color: #f7e753;
-  height: 8em;
+  height: 6em;
+}
+
+.footer_elements{
+
 }
 
 .ga_logo{
@@ -358,4 +362,16 @@ img.project_image {
 .credits{
   float: left;
   width: 75%;
+  height: 5em;
+  margin-left: 3em;
+  vertical-align: middle;
+
+}
+.credits h4{
+  margin-bottom: 0;
+  font-size: .875em;
+}
+.credits p{
+  margin-top: .4em;
+  font-size: .75em;
 }
