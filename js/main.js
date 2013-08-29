@@ -1,22 +1,41 @@
-$(document).ready(function() {
+window.onload = function() {
+  var scrollbarPosition = $("#navbar").position().top;
+  console.log(scrollbarPosition);
 
-  var stickyNavTop = $('#tech').offset().top;
+  $(document).on("scroll", function() {
 
-  var stickyNav = function(){
-  var scrollTop = $(window).scrollTop();
+    var windowPosition = $(document).scrollTop();
+        
+    if (windowPosition >= scrollbarPosition) {
+      $("#navbar").addClass("sticky");
+    }
+    else{
+      $("#navbar").removeClass("sticky");
+    }
 
-  if (scrollTop > stickyNavTop) {
-      $('.nav').addClass('sticky');
-  } else {
-      $('.nav').removeClass('sticky');
-  }
-  };
-
-  stickyNav();
-
-  $(window).scroll(function() {
-      stickyNav();
   });
+
+  // var stickyNavTop = $('#tech').position().top;
+
+  // var stickyNav = function(){
+
+  //   var scrollTop = $("body").scrollTop();
+
+  //   console.log(scrollTop, stickyNavTop)
+
+  //   if (scrollTop > stickyNavTop) {
+  //       $('.nav').addClass('sticky');
+  //   } else {
+  //       $('.nav').removeClass('sticky');
+  //   }
+
+  // };
+
+  // stickyNav();
+
+  // $(window).scroll(function() {
+  //     stickyNav();
+  // });
 
 
 
@@ -142,4 +161,4 @@ $(document).ready(function() {
   //   close('#will-profile');
   // });
 
-});
+};

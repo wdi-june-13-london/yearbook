@@ -199,6 +199,10 @@ p {
   font-weight: bold
 }
 
+#navbar_in a:hover{
+  text-decoration: underline;
+}
+
 #navbar_in li {
   text-transform: uppercase;
   letter-spacing: 0.2em;
@@ -318,15 +322,28 @@ a.personal_website:hover{
 }
 
 
-#project_description{
+.project_description{
   font-style: italic;
+  margin:0 0.5em;
+  min-height: 100px
 }
 
 .project_block {
   display: inline-block;
   width: 16em;
   padding-right: 1.3em;
-  float: left;
+}
+
+
+.project_block h3,
+.project_block_last h3{
+  margin:1em 0 0.5em;
+}
+
+.project_block h4,
+.project_block_last h4{
+  text-transform: none;
+  font-size: 13px
 }
 
 .project_block_last {
@@ -348,6 +365,10 @@ img.project_image {
 /*************
 * INSTRUCTORS section *
 *************/
+#instructors h1, 
+#instructors h2{
+  letter-spacing: 0px;
+}
 #instructors p, #instructors h3{
   margin: 0;
   padding: 0;
@@ -356,6 +377,11 @@ img.project_image {
 }
 #instructors h3{
   font-size: 1.25em
+}
+
+#instructors p{
+  padding:0 15px;
+  text-align: justify
 }
 #instructors #details>div>div{
   padding: 0;
