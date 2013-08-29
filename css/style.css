@@ -193,6 +193,12 @@ p {
   margin: 0;
 }
 
+#navbar_in a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold
+}
+
 #navbar_in li {
   text-transform: uppercase;
   letter-spacing: 0.2em;
@@ -337,6 +343,27 @@ img.project_image {
   background-color: white;
   text-align: center;
   box-shadow: 2px 2px 5px 1px #BABAB6;
+}
+
+/*************
+* INSTRUCTORS section *
+*************/
+#instructors p, #instructors h3{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 12px;
+}
+#instructors h3{
+  font-size: 1.25em
+}
+#instructors #details>div>div{
+  padding: 0;
+  margin: 0;
+  float: left;
+  background-color: #36a288;
+  min-height: 230px;
+  color: white;
 }
 
 /*************
