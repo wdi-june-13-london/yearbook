@@ -228,9 +228,9 @@ p {
   padding-top: 3.2em;
 }
 .tech_block {
-    width: 10em;
-    margin-right: 3.75em;
-    float: left;
+  width: 10em;
+  margin-right: 3.75em;
+  float: left;
 }
 
 .tech_block img {
@@ -241,6 +241,10 @@ p {
 
 .tech_block h3{
   margin: 0 auto;
+}
+
+.tech_block p{
+  text-align: justify;
 }
 
 /* zero right margin for right most tech_block*/
@@ -365,7 +369,7 @@ img.project_image {
 /*************
 * INSTRUCTORS section *
 *************/
-#instructors h1, 
+#instructors h1,
 #instructors h2{
   letter-spacing: 0px;
 }
