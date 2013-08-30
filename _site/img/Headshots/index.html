@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)file://localhost/Users/ankoor/WDI/yearbook/index.html -->
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" style=""><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="file://localhost/Users/ankoor/WDI/yearbook/css/normalize.css">
+       <link rel="stylesheet" href="file://localhost/Users/ankoor/WDI/yearbook/css/main.css">
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.2.1/pure-min.css">
+        <link rel="stylesheet" href="file://localhost/Users/ankoor/WDI/yearbook/css/style.css">
+        <script src="file://www.google-analytics.com/ga.js"></script><script src="./index_files/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+    <div id="page"> <!-- Main Landing Image  -->
+        <div> <!-- HEADER  -->
+            <div id="header_title">
+                <h2>GENRAL ASSEMBLY</h2>
+                <h1>WEB DEVELOPMENT IMMERSIVE</h1>
+                <h2 id="subtitle">LONDON SUMMER 2013</h2>
+            </div>
+
+            <div>
+                <img class="full_width" src="./index_files/WDI-group_2400x.jpg">
+            </div>
+
+            <div id="navbar"> <!-- Nav Bar -->
+                <ul id="navbar_in" class="clearfix">
+                    <li>instructors</li>
+                    <li>projects</li>
+                    <li>students</li>
+                    <li>about</li>
+                </ul>
+            </div>
+        </div> <!-- end HEADER -->
+
+        <div id="content"> <!-- CONTAINER -->
+
+            <div id="about" class="clearfix"> <!-- ABOUT WDI -->
+                <div class="title">
+                    <h1>ABOUT WDI</h1>
+                    <h2>Web Development Immersive</h2>
+                </div>
+
+                <div id="blurb">
+                    <p>WDI is General Assembly’s Web Development Immersive track. Think of it as bootcamp. We certainly have. To us, immersive means all day, every day, weekends and weeknights, for 12 weeks straight. Fifteen students, completely different backgrounds, all retrained as web developers.
+                    Here is what we’ve accomplished. </p>
+                </div>
+                  <div id="tech">
+                    <div class="tech_set clearfix">
+                    <div class="tech_block ">
+                        <img src="./index_files/paintbrush_icon.jpg">
+                        <h3>HTML/CSS</h3>
+                        <p>We’ve covered front-end languages like HTML and CSS, HAML and SASS, and responsive design to create beautiful and intuitive layouts.</p>
+                    </div>
+
+                    <div class="tech_block ">
+                        <img src="./index_files/rubygem_icon.jpg">
+                        <h3>RUBY ON RAILS</h3>
+                        <p>We started with pure Ruby and OOP, then moved into Sinatra and Ruby on Rails, incorporating gems, RegEx, and open-source software.</p>
+                    </div>
+                </div>
+                <div class="tech_set clearfix">
+                    <div class="tech_block">
+                        <img src="./index_files/coffescript_icon.jpg">
+                        <h3>JS/JQUERY/AJAX</h3>
+                        <p>We dived into Javascript, progressing with AJAX, JQuery, and Coffeescript, experimenting with APIs, libraries like Underscore and Ember, and testing with Jasmine.</p>
+                    </div>
+
+                    <div class="tech_block">
+                        <img src="./index_files/lightbulb_icon.jpg">
+                        <h3>THE FINALE</h3>
+                        <p>Pair programming, databases, computer science, version control, algorithms, refactoring, TDD with Rspec and so much more to bring it all together.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div id="students" class="clearfix"> <!-- MEET THE DEVELOPERS -->
+                <div class="title">
+                    <h1>MEET THE DEVELOPERS</h1>
+                    <h2>Software Engineers in the Making</h2>
+                </div>
+            </div>
+
+            <div id="profiles"> <!-- Profiles -->
+            <div class="row pure-g-r clearfix">
+                <div class="pure-u-1-3 "><!-- Adam -->
+                    <div class="portrait" id="adam-portrait">
+                        <img src="./index_files/Adam_240x240.jpg">
+                    </div>
+                </div>
+                <div class="pure-u-1-3 "><!-- Andrea -->
+                    <div class="portrait" id="andrea-portrait">
+                        <img src="./index_files/Andrea_240x240.jpg">
+                    </div>
+                </div>
+                <div class="pure-u-1-3 "><!-- Ankoor -->
+                    <div class="portrait" id="ankoor-portrait">
+                        <img src="./index_files/Ankoor_Patel_240x240.jpg">
+                    </div>
+                </div>
+            </div> <!-- END ROW -->
+            <div class="profile-row">
+                        <div class="profile" id="adam-profile" style="display: none;">
+                            <h1 class="left">ADAM RAIS</h1>
+                            <a href="http://adamgoodapp.com/">adamgoodapp.com</a>
+                            <p>A professional drummer with a business background, Adam first got into coding as a hobby. By the time he decided to join the WDI course, he had already developed impressive front-end skills and had spent some quality time with iOS. He is now ready to take over the world with his programming powers</p>
+                                <img src="./index_files/github_icon.png">
+                            <a href="https://twitter.com/adamgoodapp"></a>
+                            <a href="https://github.g/" src="img/icons/twitter_icon.png"></a>
+                            <a href="http://www.linkedin.com/pub/adam-rais/60/b69/a92"><img src="./index_files/linkedin_icon.png"></a>
+                        </div>
+                        <div class="profile" id="andrea-profile" style="display: none;">
+                            <h1>ANDREA KENNEDY</h1>
+                            <a href="http://adamgoodapp.com/">adamgoodapp.com</a>
+                            <p>Andrea has a background in the arts, with an MPhil in the History of Science from Cambridge University.  Prior to General Assembly, she worked as a freelance historical researcher for English Heritage, compiling information for exhibitions.</p>
+                            <a href="https://github.com/AdamGoodApp"><img src="./index_files/github_icon.png"></a>
+                            <a href="https://twitter.com/butterloverz"><img src="./index_files/twitter_icon.png"></a>
+                            <a href="file://localhost/Users/ankoor/WDI/yearbook/uk.linkedin.com/pub/andrea-kennedy/25/801/879"><img src="./index_files/linkedin_icon.png"></a>
+                        </div>
+                        <div class="profile" id="ankoor-profile" style="display: none;">
+                            <h1 class="right">ANKOOR PATEL</h1>
+                            <a href="http://adamgoodapp.com/">adamgoodapp.com</a>
+                            <p>Ankoor loves science. He also loves tech. He especially loves how both are changing the world. Prior to joining WDI, Ankoor was a researcher in computational materials science, investigating optical and electronic materials. As an active member of London's social enterprise sector, he started helping newly created organizations with their web development needs. Nothing makes Ankoor happier than finding elegant solutions to complex problems.</p>
+                            <a href="https://github.com/ankoor7"><img src="./index_files/github_icon.png"></a>
+                            <a href="https://twitter.com/oncoor"><img src="./index_files/twitter_icon.png"></a>
+                            <a href="http://www.linkedin.com/pub/ankoor-patel/20/958/940"><img src="./index_files/linkedin_icon.png"></a>
+                        </div>
+
+            </div> <!-- END PROFILE ROW -->
+
+
+            <div class="row pure-g-r">
+                <div class="pure-u-1-3"><!-- Anna -->
+                    <div class="portrait" id="anna-portrait">
+                        <img src="./index_files/Anna_Hendre_240x240.jpg">
+                    </div>
+                </div>
+                <div class="pure-u-1-3"><!-- Britney -->
+                    <div class="portrait" id="britney-portrait">
+                        <img src="./index_files/BritneyJo_240x240.jpg">
+                    </div>
+                </div>
+                <div class="pure-u-1-3"><!-- CJ -->
+                    <div class="portrait" id="cj-portrait">
+                        <img src="./index_files/CJ_240x240.jpg">
+                    </div>
+                </div>
+            </div> <!-- END ROW -->
+
+            <div class="profile-row">
+                        <div class="profile" id="anna-profile" style="display: none;">
+                            <h1 class="left">ANNA HENDRE</h1>
+                            <a href="http://adamgoodapp.com/">adamgoodapp.com</a>
+                            <p>
+                            Prior to joining WDI, Anna studied economics in Italy.  Anna loves cats, reading and new experiences - and while cats were not as heavily featured as she hoped during the course, new experiences are exactly what WDI provided. Ruby wasn't the only language that Anna mastered: she also saw these twelve weeks as an opportunity to improve her English. She is moving to London and eager to find a job in the tech field, ideally with a fashion company.
+                            </p>
+                            <a href="https://github.com/hendranna"><img src="./index_files/github_icon.png"></a>
+                            <a href="https://twitter.com/hendranna"><img src="./index_files/twitter_icon.png"></a>
+                            <a href="file://localhost/Users/ankoor/WDI/yearbook/uk.linkedin.com/pub/anna-hendre/43/69/562"><img src="./index_files/linkedin_icon.png"></a>
+                        </div>
+                        <div class="profile" id="britney-profile" style="display: none;">
+                            <h1>Britney Jo Ludkowski</h1>
+                            <a href="http://britneyjo.com/">britneyjo.com</a>
+                            <p>
+                            Chicago-born, Austin-based and passport-driven, Britney Jo flew over the pond to join WDI. She previously worked in marketing for a telecommunications company and also as a freelance graphic designer. By merging her design background with her newly acquired coding skills, Britney Jo can not only make things beautiful, but also make them function - and function well.
+                            </p>
+                            <a href="https://github.com/BritneyJo"><img src="./index_files/github_icon.png"></a>
+                            <a href="https://twitter.com/britneyjolud"><img src="./index_files/twitter_icon.png"></a>
+                            <a href="http://www.linkedin.com/in/britneyjolud"><img src="./index_files/linkedin_icon.png"></a>
+                        </div>
+                        <div class="profile" id="cj-profile" style="display: none;">
+                            <h1 class="right">CJ Ponti</h1>
+                            <a href="http://britneyjo.com/">britneyjo.com</a>
+                            <p>
+                            Born and raised in New York City, CJ picked up programming in high school and never really stopped. After studying finance and economics in college, he then went on to work in finance, real estate and fashion. Prior to joining WDI, CJ spent a year in France, actively learning about Python, French, bread and cheese. There are two things that CJ loves above all and talks about with great passion: quantum mechanics and kittens.
+                            </p>
+                            <a href="https://github.com/theponti"><img src="./index_files/github_icon.png"></a>
+                            <a href="https://twitter.com/cjponti"><img src="./index_files/twitter_icon.png"></a>
+                            <a href="http://www.linkedin.com/in/britneyjolud"><img src="./index_files/linkedin_icon.png"></a>
+                        </div>
+            </div>
+
+            <div class="row pure-g-r">
+                <div class="pure-u-1-3"><!-- Emile -->
+                    <div class="portrait" id="emile-portrait">
+                        <img src="./index_files/emile_denichaud_240x240.jpg">
+                    </div>
+                </div>
+                <div class="pure-u-1-3"><!-- James E -->
+                    <div class="portrait" id="jamese-portrait">
+                        <img src="./index_files/James_Elliott_240x240.jpg">
+                    </div>
+                </div>
+                <div class="pure-u-1-3"><!-- James P -->
+                    <div class="portrait" id="jamesp-portrait">
+                        <img src="./index_files/James_Poulter_240x240.jpg">
+                    </div>
+                </div>
+            </div> <!-- END ROW -->
+
+            <div class="profile-row">
+                    <div>
+                        <div class="pure-u-2-3 profile" id="emile-profile" style="display: none;">
+                            <h1 class="left">Emile Denichaud</h1>
+                            <a href="http://britneyjo.com/">britneyjo.com</a>
+                            <p>
+                            Emile joined the WDI program with the goal of engineering teams within the tech sphere. He believes that new and traditional media work in harmony to create compelling narratives. Exciting things happen when aesthetics are communicated digitally in a dynamic &amp; innovative way. Previously, Emile ran a boutique creative agency in Hong Kong &amp; Tokyo.
+                            </p>
+                            <a href="https://github.com/theponti"><img src="./index_files/github_icon.png"></a>
+                            <a href="https://twitter.com/cjponti"><img src="./index_files/twitter_icon.png"></a>
+                            <a href="http://www.linkedin.com/in/britneyjolud"><img src="./index_files/linkedin_icon.png"></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="pure-u-2-3 profile" id="jamese-profile" style="display: none;">
+                            <h1>James Elliott</h1>
+                            <a href="http://britneyjo.com/">britneyjo.com</a>
+                            <p>
+                            Prior to joining the course, James worked in investment banking and commodities trading. His interest in tech and startups was ignited after running and managing a sales team of 6 people for an e-commerce startup in London. James' experience at WDI left him wanting more, and he is now looking forward to honing his new coding knowledge through a technical apprenticeship or in a business development/marketing role that incorporates programming.
+                            </p>
+                            <a href="https://github.com/elliottjam"><img src="./index_files/github_icon.png"></a>
+                            <a href="https://twitter.com/elliottjam"><img src="./index_files/twitter_icon.png"></a>
+                            <a href="file://localhost/Users/ankoor/WDI/yearbook/uk.linkedin.com/pub/james-elliott/6/821/793/"><img src="./index_files/linkedin_icon.png"></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="pure-u-2-3 profile" id="jamesp-profile" style="display: none;">
+                            <h1 class="right">James Poulter</h1>
+                            <a href="http://jamesroypoulter.com/">jamesroypoulter.com</a>
+                            <p>
+                            James is a former chartered accountant at Ernst &amp; Young and founder of a cloud-based education platform, Unilibri. It failed. But James' love for startups and social enterprise didn't falter. A frequent hackathon attendee, shrewd networker, previous advisor at the Bright Ideas Trust and current school governor, James is looking for a role as a developer where he can build on the skills he developed with WDI. More than anything, James wants to build amazing things and make an impact.
+                            </p>
+                            <a href="https://github.com/JamesRoyPoulter"><img src="./index_files/github_icon.png"></a>
+                            <a href="https://twitter.com/JamesRoyPoulter"><img src="./index_files/twitter_icon.png"></a>
+                            <a href="http://www.linkedin.com/in/jamesroypoulter"><img src="./index_files/linkedin_icon.png"></a>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="row pure-g-r">
+                <div class="pure-u-1-3"><!-- Jarkyn -->
+                    <div class="portrait" id="jarkyn-portrait">
+                        <img src="./index_files/Jarkyn_240x240.jpg">
+                    </div>
+                </div>
+                <div class="pure-u-1-3"><!-- Julien -->
+                    <div class="portrait" id="julien-portrait">
+                        <img src="./index_files/Julien_Deslangles_240x240.jpg">
+                    </div>
+                </div>
+                 <div class="pure-u-1-3"><!-- Luke -->
+                    <div class="portrait" id="luke-portrait">
+                        <img src="./index_files/Luke_Robertson_240x240.jpg">
+                    </div>
+                </div>
+            </div> <!-- END ROW -->
+
+            <div class="profile-row">
+                        <div class="pure-u-2-3 profile" id="jarkyn-profile" style="display: none;">
+                            <h1 class="left">Jarkyn S</h1>
+                            <a href="http://jamesroypoulter.com/">jamesroypoulter.com</a>
+                            <p>
+                            After several years in client facing roles within marketing and product development, Jarkyn grew tired of watching developers have all the fun. She decided it was time to join them and therefore, has equipped herself with skills in both front-end and back-end coding through WDI. Passionate about UI/UX, design, cycling and yoga, Jarkyn is looking forward to spending days translating great ideas into great code.
+                            </p>
+                            <a href="https://github.com/indykid"><img src="./index_files/github_icon.png"></a>
+                            <a href="https://twitter.com/indykidd"><img src="./index_files/twitter_icon.png"></a>
+                            <a href="file://localhost/Users/ankoor/WDI/yearbook/uk.linkedin.com/pub/jarkyn-soltobaeva/27/19b/155/"><img src="./index_files/linkedin_icon.png"></a>
+                        </div>
+                        <div class="pure-u-2-3 profile" id="julien-profile" style="display: none;">
+                            <h1>Julien Deslangles-Blanch</h1>
+                            <a href="http://www.deslangles.com/">deslangles.com</a>
+                            <p>
+                            After a stint in diplomacy, Julien spent a few years advising multinationals on how to successfully expand their activities in Asia. While working with exciting tech companies on equally exciting projects, he decided to make a full transition into the tech field. A tech aficionado, lifelong expat and hot chocolate enthusiast, Julien loves languages; as if speaking a whole bunch of them wasn't enough, Julien joined WDI to learn a few more - this time of the programming type. And he's had such a great time coding that he will be back to teach the next WDI at General Assembly.After a stint in diplomacy, Julien spent a few years advising multinationals on how to successfully expand their activities in Asia. While working with exciting tech companies on equally exciting projects, he decided to make a full transition into the tech field. A tech aficionado, lifelong expat and hot chocolate enthusiast, Julien loves languages; as if speaking a whole bunch of them wasn't enough, Julien joined WDI to learn a few more - this time of the programming type. And he's had such a great time coding that he will be back to teach the next WDI at General Assembly.
+                            </p>
+                            <a href="https://github.com/deslangles"><img src="./index_files/github_icon.png"></a>
+                            <a href="https://twitter.com/jdeslangles"><img src="./index_files/twitter_icon.png"></a>
+                            <a href="http://www.linkedin.com/in/deslangles"><img src="./index_files/linkedin_icon.png"></a>
+                        </div>
+                        <div class="pure-u-2-3 profile" id="luke-profile" style="display: none;">
+                            <h1 class="right">Luke Robertson</h1>
+                            <a href="http://www.deslangles.com/">jamesroypoulter.com</a>
+                            <p>
+                            Luke initially studied Physics at Oxford University and graduated with a first class Masters degree. He then enjoyed a successful twelve years in equity research sales, before deciding to shift direction towards his underlying passions: tech and innovation. Luke elected to join the WDI program to build coding skills and fluency in full stack web development, and has loved every minute of it. His experience in sales and relationship management maps directly on to business development roles in the tech space.
+                            </p>
+                            <a href="https://github.com/LukeRobertsonUK"><img src="./index_files/github_icon.png"></a>
+                            <a href="https://twitter.com/radeberobertson"><img src="./index_files/twitter_icon.png"></a>
+                            <a href="http://uk.linkedin.com/in/lukerobertsonuk"><img src="./index_files/linkedin_icon.png"></a>
+                        </div>
+            </div>
+
+            <div class="row pure-g-r">
+                <div class="pure-u-1-3"><!-- Salman -->
+                    <div class="portrait" id="salman-portrait">
+                        <img src="./index_files/Salman_240x240.jpg">
+                    </div>
+                </div>
+                <div class="pure-u-1-3"><!-- Stewart -->
+                    <div class="portrait" id="stewart-portrait">
+                        <img src="./index_files/Stewart_Scougall_240x240.jpg">
+                    </div>
+                </div>
+                <div class="pure-u-1-3"><!-- Will -->
+                    <div class="portrait" id="will-portrait">
+                        <img src="./index_files/Will_Mcvay_240x240.jpg">
+                    </div>
+                </div>
+            </div> <!-- END ROW -->
+
+            <div class="profile-row">
+                        <div class="pure-u-2-3 profile" id="salman-profile" style="display: none;">
+                            <h1 class="left">Salman Khalifa</h1>
+                            <a href="http://www.deslangles.com/">jamesroypoulter.com</a>
+                            <p>
+                            For as long as he can remember, Salman has had an interest in programming. With a background in Computer Science, Salman flew from Bahrain to join WDI and expand his knowledge in web technologies. He has especially enjoyed the nurturing environment this program provided, and how much he has learnt about himself and working with others. Salman intends to use the momentum this course has built to constantly push himself and develop awesome stuff.
+                            </p>
+                            <a href="https://github.com/theskas"><img src="./index_files/github_icon.png"></a>
+                            <a href="https://twitter.com/theskas"><img src="./index_files/twitter_icon.png"></a>
+                            <a href="file://localhost/Users/ankoor/WDI/yearbook/bh.linkedin.com/pub/salman-khalifa/7a/550/169/"><img src="./index_files/linkedin_icon.png"></a>
+                        </div>
+                        <div class="pure-u-2-3 profile" id="stewart-profile" style="display: none;">
+                            <h1>Stewart Scougall</h1>
+                            <a href="http://scougs.com/">scougs.com</a>
+                            <p>
+                            Prior to joining WDI, Stewart was born, raised, married, and employed in Edinburgh, Scotland. A project manager by trade, he even has an MBA to prove that he's followed the traditional big-business career path. He is now looking to combine past skills with those he's learned over the course of WDI to do something awesome! Passionate about good coffee, Stewart is also currently working on launching a social enterprise coffee project in Haiti.
+                            </p>
+                            <a href="https://github.com/scougs"><img src="./index_files/github_icon.png"></a>
+                            <a href="https://twitter.com/scougs"><img src="./index_files/twitter_icon.png"></a>
+                            <a href="file://localhost/Users/ankoor/WDI/yearbook/uk.linkedin.com/in/scougall/"><img src="./index_files/linkedin_icon.png"></a>
+                        </div>
+                        <div class="pure-u-2-3 profile" id="will-profile" style="display: none;">
+                            <h1 class="right">Will McVay</h1>
+                            <a href="http://scougs.com/">scougs.com</a>
+                            <p>
+                            Will studied philosophy at Durham University, which has only subsequently come in use in the context of the pub debate! Following a number of years at the Ministry of Justice, and then as a partner in a start-up physical commodities business, Will is now embarking on his third career in the exciting world of web development.. Outside of work, he enjoys music (listening), cricket (watching), standup comedy (laughing) and single-malt scotch (drinking).
+                            </p>
+                            <a href="https://github.com/willmcvay"><img src="./index_files/github_icon.png"></a>
+                            <a href="https://twitter.com/will_mcvay"><img src="./index_files/twitter_icon.png"></a>
+                            <a href="http://www.linkedin.com/pub/william-mcvay/67/b82/106"><img src="./index_files/linkedin_icon.png"></a>
+                        </div>
+            </div> <!-- END PROFILE ROW -->
+
+        </div> <!-- END PROFILES -->
+
+            <div><!-- Featured Projects -->
+                <div>
+                    <h1>Featured Projects</h1>
+                    <h2>Subtitle</h2>
+                    <p>Practice makes perfect, so we put our skills to the test. Project 1, was an independent assignment: Music sharing app, GA scheduler or a Tic Tac Toe gaming platform? For Project 2 we teamed up in threes to create far more complex sites: an RSS feeder, a photo sharing app, a "cheerup" tweeting site, a dating app and a wifi sharing service. For final projects we could work alone or in groups and on the topics of our choice. Here’s just a small selection of some of the awesome things we’ve produced.</p>
+                </div>
+                <div><!-- PROJECTS -->
+                    <div id="row">
+                        <div>
+                            <img src="./index_files/UNIFI.jpg">
+                            <h3>UNIFI</h3>
+                            <p id="project_description">Add and share wifi-networks with your friends, and find new ones to add to your collection. Never be without wifi again.</p>
+                            <h4>Luke Robertson, Andrea Kennedy &amp; Emile Denichaud</h4>
+                        </div>
+                        <div>
+
+                            <img src="./index_files/cheerups.jpg">
+                            <h3>CHEERUPS</h3>
+                            <p id="project_description">Cheerup (n) [cheer-up] A snippet of life that will make you smile
+                            Add and share cheerups in the community to make someone's day or improve your own.</p>
+                            <h4>Ankoor Patel, Adam Rais &amp; James Elliot</h4>
+                        </div>
+                        <div>
+                            <img src="./index_files/4PiX.jpg">
+                            <h3>CHEERUPS</h3>
+                            <p id="project_description">Picture sharing made beautiful.</p>
+                            <h4>Julien Deslangles, Britney Jo Ludkowski and Anna Hendre</h4>
+                        </div>
+                    </div>
+                    <div id="row">
+                        <div>
+                            <img src="./index_files/freeder.jpg">
+                            <h3>FREEDER</h3>
+                            <p id="project_description">An RSS/Atom reader personalized for your interests.</p>
+                            <h4>Salman Khalifa, Stewart Scougall &amp; Will McVay</h4>
+                        </div>
+                        <div>
+
+                            <img src="./index_files/dating.jpg">
+                            <h3>HELLO</h3>
+                            <p id="project_description">Casual dating site for IT professionals.</p>
+                            <h4>CJ Ponti, James Poulter &amp; Jarkyn Soltobaeva</h4>
+                        </div>
+                        <div>
+                            <img src="./index_files/dating.jpg">
+                            <h3>HELLO</h3>
+                            <p id="project_description">Casual dating site for IT professionals.</p>
+                            <h4>CJ Ponti, James Poulter &amp; Jarkyn Soltobaeva</h4>
+                        </div>
+                    </div>
+                    <div id="row">
+                        <div>
+                            <img src="./index_files/freeder.jpg">
+                            <h3>FREEDER</h3>
+                            <p id="project_description">An RSS/Atom reader personalized for your interests.</p>
+                            <h4>Salman Khalifa, Stewart Scougall &amp; Will McVay</h4>
+                        </div>
+                        <div>
+                            <img src="./index_files/dating.jpg">
+                            <h3>HELLO</h3>
+                            <p id="project_description">Casual dating site for IT professionals.</p>
+                            <h4>CJ Ponti, James Poulter &amp; Jarkyn Soltobaeva</h4>
+                        </div>
+                        <div>
+
+                            <img src="./index_files/dating.jpg">
+                            <h3>HELLO</h3>
+                            <p id="project_description">Casual dating site for IT professionals.</p>
+                            <h4>CJ Ponti, James Poulter &amp; Jarkyn Soltobaeva</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div><!-- INSTRUCTORS -->
+                <div>
+                    <h1>THE INSTRUCTOR TEAM</h1>
+                    <h2>Learning from the best</h2>
+                    <p>Breaking down complex topics for beginners is a tough task, but our instructors made it seem easy. A big thank you to all four of them who detangled our spaghetti code, put up with our ranting, whinging, crying, and incessant questions, and for all the laughter, beers, love and support over those oh so long, but much too short, three months spent together.</p>
+                </div>
+                <div>
+                    <img src="./index_files/instructors.jpg">
+                </div>
+                <div>
+                    <div>
+                        <h3>GERAUD MATHE</h3>
+                        <p>A self-taught developer, Geraud has over 7 years experience working with Rails. He created his own company in Paris, and has been freelancing for over a year. He specializes in Rails, testing and javascript.</p>
+                    </div>
+                    <div>
+                        <h3>KIM SZELONG</h3>
+                        <p>Kim has a HND in Interactive Multimedia Creation and a BSC in Multimedia Technology. She is a graduate of General Assembly London's first WDI course and was kept on as a TA for the June session. She is starting her new job as a junior developer at Adaptive Labs in September 2013.</p>
+                    </div>
+                    <div>
+                        <h3>JAMES WILLOCK</h3>
+                        <p>James is a designer and developer, with previous work experience at Ubuntu, WorldSkills and Edelman. He is passionate about interaction design and visual communication and has taught several courses at General Assembly.</p>
+                    </div>
+                    <div>
+                        <h3>MICHAEL PAVLING</h3>
+                        <p>Michael has been working with web development technology since 1999, and for the last six years has specialized in Ruby and Rails. He has extensive experience teaching beginners and is also a qualified instructor in skiing and martial arts.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div><!-- FOOTER -->
+                <div>
+                    <img src="./index_files/GA_logo.png">
+                </div>
+                <div>
+                    <h4>This site was a group effort, created by the students.</h4>
+                    <p>Designers: Andrea Kennedy &amp; Britney Jo Ludkowski</p>
+                    <p>Copywriters: Julien Deslangles &amp; Andrea Kennedy</p>
+                    <p>Developers: Ankoor Patel &amp; Adam Rais</p>
+                    <p>Photography: Ankoor Patel and [PHOTOGRAPHER NAME], edited by Emile Denichaud</p>
+                </div>
+            </div>
+
+
+        </div> <!-- END CONTAINER
+
+    </div> <!-- END PAGE  container -->
+
+
+
+
+
+
+
+
+
+        <script src="file://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script><script src="./index_files/jquery-1.9.1.min.js"></script>
+        <script src="./index_files/plugins.js"></script>
+        <script src="./index_files/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    
+
+</div></body></html>
