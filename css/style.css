@@ -325,11 +325,10 @@ a.personal_website:hover{
   padding-top: 8em;
 }
 
-
 .project_description{
   font-style: italic;
-  margin:0 0.5em;
-  min-height: 100px
+  min-height: 80px;
+  margin: 0.5em 0;
 }
 
 .project_block {
@@ -338,16 +337,15 @@ a.personal_website:hover{
   padding-right: 1.3em;
 }
 
-
 .project_block h3,
 .project_block_last h3{
-  margin:1em 0 0.5em;
+  margin:0;
 }
 
 .project_block h4,
 .project_block_last h4{
   text-transform: none;
-  font-size: 13px
+  font-size: 13px;
 }
 
 .project_block_last {
