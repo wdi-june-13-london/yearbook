@@ -349,7 +349,8 @@ a.personal_website:hover{
 .project_block_last h4{
   text-transform: none;
   font-size: 13px;
-  margin: 0 0.9em;
+  margin: 0.9em;
+  margin-left: 2em;
 }
 
 .project_block_last {
