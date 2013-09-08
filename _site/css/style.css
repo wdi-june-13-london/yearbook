@@ -111,9 +111,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
 }
-p:last-child {
-  margin-bottom: 0;
-}
+
+
 
 h1 {
     font-size: 3.8em;
@@ -162,6 +161,7 @@ h4{
 
 p {
     font-size: 0.875em;
+    margin-bottom: 3em;
 }
 
 /*************
@@ -225,12 +225,11 @@ p {
 
 .tech_set {
   float:left;
-  padding-top: 3.2em;
 }
 .tech_block {
-    width: 10em;
-    margin-right: 3.75em;
-    float: left;
+  width: 10em;
+  margin-right: 3.75em;
+  float: left;
 }
 
 .tech_block img {
@@ -241,6 +240,10 @@ p {
 
 .tech_block h3{
   margin: 0 auto;
+}
+
+.tech_block p{
+  text-align: justify;
 }
 
 /* zero right margin for right most tech_block*/
@@ -321,42 +324,51 @@ a.personal_website:hover{
   padding-top: 8em;
 }
 
-
 .project_description{
   font-style: italic;
-  margin:0 0.5em;
-  min-height: 100px
+  min-height: 80px;
+  margin: 0.5em 1.7em;
 }
 
 .project_block {
   display: inline-block;
-  width: 16em;
-  padding-right: 1.3em;
+  background: #f7e753;
+  margin: 0 2em 2em 0;
+  height: 21em;
+  width: 15.5em;
+  padding-right: 0;
 }
-
 
 .project_block h3,
 .project_block_last h3{
+<<<<<<< HEAD
   margin:0em 0 0.5em;
+=======
+  margin:0;
+  text-align: center;
+>>>>>>> 6433e6186746cc2dcae619ef7559ba2c99e18e2b
 }
 
 .project_block h4,
 .project_block_last h4{
   text-transform: none;
-  font-size: 13px
+  font-size: 13px;
+  margin: 0 0.9em;
 }
 
 .project_block_last {
   display: inline-block;
-  width: 16em;
-  margin-right: 0;
+  margin-right: 0 0 2em 0;
   float: left;
+  background: #f7e753;
+  height: 21em;
+  width: 15.5em;
+  padding-right: 0;
 }
 
 img.project_image {
-  max-width: 16em;
-  margin-top: 3em;
-  margin-bottom: 1em;
+  max-width: 13.5em;
+  margin: 1em;
   background-color: white;
   text-align: center;
   box-shadow: 2px 2px 5px 1px #BABAB6;
@@ -365,7 +377,7 @@ img.project_image {
 /*************
 * INSTRUCTORS section *
 *************/
-#instructors h1, 
+#instructors h1,
 #instructors h2{
   letter-spacing: 0px;
 }
