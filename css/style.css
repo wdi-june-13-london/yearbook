@@ -334,7 +334,7 @@ a.personal_website:hover{
   display: inline-block;
   background: #f7e753;
   margin: 0 2em 2em 0;
-  height: 21em;
+  height: 19em;
   width: 15.5em;
   padding-right: 0;
 }
@@ -354,6 +354,7 @@ a.personal_website:hover{
   text-transform: none;
   font-size: 13px;
   margin: 0 0.9em;
+  margin-left: 1.7em;
 }
 
 .project_block_last {
@@ -361,7 +362,7 @@ a.personal_website:hover{
   margin-right: 0 0 2em 0;
   float: left;
   background: #f7e753;
-  height: 21em;
+  height: 19em;
   width: 15.5em;
   padding-right: 0;
 }
@@ -371,7 +372,8 @@ img.project_image {
   margin: 1em;
   background-color: white;
   text-align: center;
-  box-shadow: 2px 2px 5px 1px #BABAB6;
+  box-shadow: 0px 0px 5px 0.5px black;
+  margin-bottom: 0.5em;
 }
 
 /*************

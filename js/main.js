@@ -1,6 +1,5 @@
 window.onload = function() {
   var scrollbarPosition = $("#navbar").position().top;
-  console.log(scrollbarPosition);
 
   $(document).on("scroll", function() {
 
